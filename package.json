@@ -1,14 +1,28 @@
 {
   "name": "ios-mo",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "react",
+    "modal",
+    "ios",
+    "dialog",
+    "typescript"
+  ],
+  "author": "Tiavina",
+  "license": "MIT",
   "dependencies": {
     "@floating-ui/react": "^0.26.9",
     "class-variance-authority": "^0.7.0",
