@@ -19,25 +19,10 @@ A beautiful, accessible, and customizable iOS-style modal component for React ap
 npm install ios-mo
 ```
 
-## Updating the Package
-
-To update the package version and publish:
-
-```bash
-# For patch updates (0.0.x)
-npm run release:patch
-
-# For minor updates (0.x.0)
-npm run release:minor
-
-# For major updates (x.0.0)
-npm run release:major
-```
-
 ## Usage
 
 ```tsx
-import { IOSModal } from 'ios-mod';
+import { IOSModal } from 'ios-mo';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
