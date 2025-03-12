@@ -8,7 +8,7 @@ export function Installation() {
       <section>
         <h2>NPM</h2>
         <CodeBlock
-          code={`npm install ios-modal`}
+          code={`npm install ios-mo`}
           language="bash"
         />
       </section>
@@ -19,7 +19,7 @@ export function Installation() {
           After installation, you can import and use the modal in your React application:
         </p>
         <CodeBlock
-          code={`import { IOSModal } from ios-modal';
+          code={`import { IOSModal } from ios-mo';
 import { useState } from 'react';
 
 function App() {

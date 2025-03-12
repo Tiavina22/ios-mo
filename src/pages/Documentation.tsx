@@ -8,7 +8,7 @@ export function Documentation() {
       <section>
         <h2>Installation</h2>
         <CodeBlock
-          code={`npm install ios-modal`}
+          code={`npm install ios-mo`}
           language="bash"
         />
       </section>
@@ -19,7 +19,7 @@ export function Documentation() {
           Import the IOSModal component and use it in your React application:
         </p>
         <CodeBlock
-          code={`import { IOSModal } from ios-modal';
+          code={`import { IOSModal } from ios-mo';
 import { useState } from 'react';
 
 function App() {

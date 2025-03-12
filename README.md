@@ -16,13 +16,13 @@ A beautiful, accessible, and customizable iOS-style modal component for React ap
 ## Installation
 
 ```bash
-npm install ios-modal
+npm install ios-mo
 ```
 
 ## Usage
 
 ```tsx
-import { IOSModal } from 'ios-modal';
+import { IOSModal } from 'ios-mod';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
