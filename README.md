@@ -93,4 +93,4 @@ The modal is built with accessibility in mind:
 
 ## License
 
-MIT © [Your Name]
+MIT © Tiavina
