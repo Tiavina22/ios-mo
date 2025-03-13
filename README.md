@@ -24,7 +24,7 @@ npm install ios-mo
 ```tsx
 import { IOSModal } from 'ios-mo';
 
-function App() {
+const App = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -32,7 +32,6 @@ function App() {
       isOpen={isOpen}
       onClose={() => setIsOpen(false)}
       title="Welcome"
-      description="This is a modal description"
       actions={[
         {
           label: 'Cancel',
@@ -40,15 +39,12 @@ function App() {
           variant: 'outline'
         },
         {
-          label: 'Confirm',
-          onClick: () => {
-            // Handle confirmation
-            setIsOpen(false);
-          }
+          label: 'Continue',
+          onClick: () => setIsOpen(false)
         }
       ]}
     >
-      <div>Your modal content here</div>
+      <p>Modal content here</p>
     </IOSModal>
   );
 }
